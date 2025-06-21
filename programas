@@ -1,0 +1,17 @@
+Par ou Ímpar:
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    inteiro valor
+
+    //entrada de dados
+    escreva("Informe um valor: ")
+    leia(valor)
+
+    se (valor % 2 == 0){
+      escreva("Este numero e par")
+    }senao{
+      escreva("este numero e impar")
+    }
+  }
+}
