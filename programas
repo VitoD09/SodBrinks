@@ -1,3 +1,5 @@
+<ALGORITOS DE PROBLEMAS PORTUGOL>
+
 Par ou Ímpar:
 programa {
   funcao inicio() {
@@ -12,6 +14,27 @@ programa {
       escreva("Este numero e par")
     }senao{
       escreva("este numero e impar")
+    }
+  }
+}
+
+
+Maior de Dois Números:
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    real num1, num2
+
+    //entrada de dados
+    escreva("informe o primeiro valor: ")
+    leia(num1)
+    escreva("Informe o segundo valor: ")
+    leia(num2)
+
+    se(num1>num2){
+      escreva("O valor ",num1," e maior que ",num2)
+    }senao{
+      escreva("O valor ",num2," e maior que ",num1)
     }
   }
 }
