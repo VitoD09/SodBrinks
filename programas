@@ -38,3 +38,23 @@ programa {
     }
   }
 }
+
+
+Soma de Números de 1 a N:
+programa {
+  funcao inicio() {
+    //DECLARAÇAO DE VARIAVEIS
+    inteiro num1, soma=0
+
+    //entrada de dados
+    escreva("Informe um numero: ")
+    leia(num1)
+
+    //processamento
+    para(inteiro i = 1; i <= num1; i++)
+    {
+      soma+=i
+    }
+    escreva(soma)
+  }
+}
