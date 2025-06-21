@@ -58,3 +58,23 @@ programa {
     escreva(soma)
   }
 }
+
+
+Fatorial de um numero:
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    inteiro num1, fatorial=1
+
+    //entrada de dados
+    escreva("Informe um valor: ")
+    leia(num1)
+
+    //processamento
+    faca{
+      fatorial*=num1  //fatorial ta multiplicando num1 e assumindo o resultado
+      num1--  //depois num1 e subtraido por 1 e volta o loop
+    }enquanto(num1>0)
+    escreva(fatorial)
+  }
+}
