@@ -97,3 +97,41 @@ programa {
     } 
   }
 }
+
+
+Media de notas:
+programa {
+  funcao inicio() {
+    //declaraçao de variaveis
+    cadeia nome
+    real nota1, nota2, nota3, media
+
+    //entrada de dados
+    escreva("Informe o nome do aluno/a: ")
+    leia(nome)
+    escreva("Informe a primeira nota: ")
+    leia(nota1)
+    escreva("Informe a segunda nota: ")
+    leia(nota2)
+    escreva("Informe a terceira nota: ")
+    leia(nota3)
+
+    //processamento
+      se (nota1>=0 e nota2>=0 e nota3>=0){
+       media = (nota1+nota2+nota3)/3
+    
+        se (media>=7){
+         escreva(nome,"  esta aprovado")
+        }
+        se (media<7 e media>4){
+         escreva(nome," esta de prova final")
+        }
+        se(media<=4){
+         escreva(nome," esta reprovado")
+        }
+      }
+      senao{
+        escreva("Notas invalidas")
+      }
+  }
+}
