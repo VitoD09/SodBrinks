@@ -78,3 +78,22 @@ programa {
     escreva(fatorial)
   }
 }
+
+
+Tabuada Simples:
+programa {
+  funcao inicio() {
+    //entrada de dados
+    inteiro num1, result
+
+    //entrada de dados
+    escreva("Informe um numero: ")
+    leia(num1)
+
+    //processamento
+    para(inteiro i = 1; i<=10; i++){
+      result=i*num1
+      escreva(num1 ," x ", i," = ",result, "\n")
+    } 
+  }
+}
