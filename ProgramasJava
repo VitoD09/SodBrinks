@@ -37,3 +37,16 @@ public class Program
     }    
     }
 }
+
+Contador 3 em 3
+public class Program
+{
+    public static void main(String[] args) {
+    int crescente, decrescente;
+        for(int i = 1; i<=100; i++){
+            crescente  = i * 1;
+            i = crescente +1;
+            System.out.println(crescente );
+        }
+    }
+}
